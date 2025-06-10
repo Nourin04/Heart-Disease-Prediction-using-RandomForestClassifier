@@ -6,6 +6,8 @@ An interactive machine learning web app that predicts the risk of heart disease 
 ## 🚀 Live Demo
 
 👉 [Click here to try the app](https://heart-disease-prediction-rf.streamlit.app/)
+
+
 ---
 ## 🧠 ML Model Details
 
