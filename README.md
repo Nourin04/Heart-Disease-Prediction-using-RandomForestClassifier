@@ -1,6 +1,17 @@
 # Heart-Disease-Prediction-using-RandomForestClassifier
 
+An interactive machine learning web app that predicts the risk of heart disease based on medical inputs. Built using [Streamlit](https://streamlit.io/) and trained on a supervised learning model.
+---
 
+## 🚀 Live Demo
+
+👉 [Click here to try the app](https://heart-disease-prediction-rf.streamlit.app/)
+---
+## 🧠 ML Model Details
+
+- **Algorithm Used**: Random Forest Classifier  
+- **Accuracy**: 98% on test set  
+- **Metrics Used**: Accuracy, Precision, Recall, F1-Score  
 
 ### 🔍 **Feature Explanations**
 
@@ -69,4 +80,41 @@
     ➤ Indicates the presence of heart disease
     ▸ 0 = No disease
     ▸ 1 = Disease present
+---
 
+## 🛠️ Tech Stack
+
+| Tech           | Use                         |
+|----------------|-----------------------------|
+| `Python`       | Core logic and ML model     |
+| `scikit-learn` | Training ML models          |
+| `Streamlit`    | Frontend UI                 |
+| `joblib`       | Save/load model             |
+| `pandas`       | Data handling               |
+| `numpy`        | Array manipulation          |
+
+---
+
+## 📌 Features
+
+- User-friendly UI to input medical attributes
+- Predicts heart disease risk instantly
+- Based on Random Forest Classifier
+- Model trained on real-world heart disease dataset
+- Gives clear feedback with medical-friendly warnings
+
+---
+
+
+## ⚙️ How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/heart-disease-predictor.git
+cd heart-disease-predictor
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the app
+streamlit run app.py
