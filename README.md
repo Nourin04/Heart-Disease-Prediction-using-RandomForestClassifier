@@ -108,15 +108,4 @@ An interactive machine learning web app that predicts the risk of heart disease 
 ---
 
 
-## ⚙️ How to Run Locally
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/heart-disease-predictor.git
-cd heart-disease-predictor
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the app
-streamlit run app.py
