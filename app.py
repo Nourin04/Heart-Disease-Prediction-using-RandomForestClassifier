@@ -22,8 +22,8 @@ thalach = st.slider("Max Heart Rate Achieved", 60, 220, 150)
 exang = st.selectbox("Exercise Induced Angina", ("No", "Yes"))
 oldpeak = st.slider("Oldpeak (ST depression)", 0.0, 6.0, 1.0)
 slope = st.selectbox("Slope of Peak Exercise ST Segment", [0, 1, 2])
-ca = st.selectbox("No. of Major Vessels (0–3)", [0, 1, 2, 3])
-thal = st.selectbox("Thalassemia", [0, 1, 2])
+ca = st.selectbox("No. of Major Vessels (0–3)", [0, 1, 2, 3, 4])
+thal = st.selectbox("Thalassemia", [0, 1, 2, 3])
 
 # Convert inputs
 sex = 1 if sex == "Male" else 0
